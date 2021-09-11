@@ -1,0 +1,30 @@
+{
+  "name": "@cafune/webpack-css-image-base",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./lib/index.js",
+  "module": "./es/index.js",
+  "scripts": {
+    "build": "cafune-build"
+  },
+  "files": [
+    "es",
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evont/webpack-css-image-base.git"
+  },
+  "author": "EvontNg <evontgoh@foxmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.15.6",
+    "@babel/preset-typescript": "^7.15.0",
+    "@cafune/script-build": "^1.0.0",
+    "@types/node": "^16.9.1",
+    "typescript": "^4.4.3"
+  },
+  "dependencies": {
+    "postcss": "^8.3.6"
+  }
+}
